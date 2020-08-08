@@ -37,7 +37,7 @@ body{
     box-shadow: 0 0 25px 0 rgb(0, 0, 0, .5);
 }
 
-i{
+.casing i{
     color: #ECE0D1;
     margin: 45px 0 23px 40px;
 }
@@ -164,16 +164,46 @@ i{
 
 
 
-
-
 /* Chart CSS */
+
+.chart-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chart-title i{
+    margin: 40px 0 34px 40px;
+    padding: 0;
+}
+
+.chart-title h1{
+    margin: 44px 30px 28px 0;
+    padding: 0;
+
+}
 
 .chart-menu{
     background-color: #ECE0D1;
     width: 360px;
-    height: 475px;
+    height: 541px;
     border-radius: 30px;
     padding: 0;
     margin: 0;
     bottom: 0;
+}
+
+.chart-search-menu{
+    display: flex;
+    justify-content: flex-start;
+    margin: 35px 40px 5px 38px;
+    padding: 0;
+}
+
+.chart-search-menu img{
+    width: 20px;
+    height: 20px;
+    opacity: .5;
 }
