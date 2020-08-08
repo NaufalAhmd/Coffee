@@ -1,0 +1,179 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    background-color: #D8AD86;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casing{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 640px;
+    border-radius: 30px;
+    background-image: url(./Image/coffee-5176961_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    box-shadow: 0 0 25px 0 rgb(0, 0, 0, .5);
+}
+
+i{
+    color: #ECE0D1;
+    margin: 45px 0 23px 40px;
+}
+
+.casing h1{
+    font-size: 24px;
+    max-width: 260px;
+    color: #ECE0D1;
+    margin: 0 0 23px 40px;
+}
+
+.block-menu{
+    background-color: #ECE0D1;
+    width: 360px;
+    height: 475px;
+    border-radius: 30px;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+.type-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 40px 26px 40px;
+}
+
+.type-menu p{
+    margin: 0;
+    padding: 0;
+}
+
+.type-menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.cold, .chart{
+    opacity: .5;
+}
+
+.search-menu{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 40px 5px 40px;
+    padding: 0;
+}
+
+.search-menu img{
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+}
+
+.sub-search-menu{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-search-menu p{
+    margin: 0 0 10px 15px;
+    padding: 0;
+    position: absolute;
+    top: 1px;
+    opacity: .5;
+}
+
+.search{
+    width: 171px;
+    height: 21px;
+    margin: 0 0 10px 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.menu-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px 20px 40px;
+}
+
+.menu-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+}
+
+.poster-menu{
+    width: 120px;
+    height: 150px;
+    background-color: #DBC1AC;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-menu{
+    width: 60px;
+    height: 60px;
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.image-menu img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 3px;
+}
+
+.name-menu{
+    margin: 10px 0 0 0;
+}
+
+.price-menu{
+    margin: 4px 0 0 0;
+    opacity: .6;
+}
+
+
+
+
+
+/* Chart CSS */
+
+.chart-menu{
+    background-color: #ECE0D1;
+    width: 360px;
+    height: 475px;
+    border-radius: 30px;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
