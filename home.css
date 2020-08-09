@@ -155,6 +155,7 @@ body{
 
 .name-menu{
     margin: 10px 0 0 0;
+    font-size: 18px;
 }
 
 .price-menu{
@@ -186,6 +187,8 @@ body{
 }
 
 .chart-menu{
+    display: flex;
+    flex-direction: column;
     background-color: #ECE0D1;
     width: 360px;
     height: 541px;
@@ -206,4 +209,59 @@ body{
     width: 20px;
     height: 20px;
     opacity: .5;
+}
+
+.chart-list{
+    width: 282px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 39px 23px 39px;
+    padding: 0;
+}
+
+.chart-image{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 13px 0 0;
+    padding: 0;
+}
+
+.chart-image img{
+    width: 60px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.chart-list-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 138px;
+    height: 60px;
+}
+
+.chart-name-menu{
+    margin: 0;
+    font-size: 18px;
+}
+
+.chart-price-menu{
+    margin: 0;
+    opacity: .6;
+}
+
+.chart-list-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
 }
