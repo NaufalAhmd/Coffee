@@ -20,7 +20,7 @@ body{
     align-items: center;
 }
 
-.casing{
+.casing, .chart-casing{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -37,12 +37,12 @@ body{
     box-shadow: 0 0 25px 0 rgb(0, 0, 0, .5);
 }
 
-.casing i{
+.casing i, .chart-title i{
     color: #ECE0D1;
     margin: 45px 0 23px 40px;
 }
 
-.casing h1{
+.casing h1, .chart-casing h1{
     font-size: 24px;
     max-width: 260px;
     color: #ECE0D1;
@@ -187,6 +187,7 @@ body{
 }
 
 .chart-menu{
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #ECE0D1;
@@ -201,7 +202,7 @@ body{
 .chart-search-menu{
     display: flex;
     justify-content: flex-start;
-    margin: 35px 40px 5px 38px;
+    margin: 35px 40px 5px 39px;
     padding: 0;
 }
 
@@ -264,4 +265,78 @@ body{
     height: 60px;
     margin: 0;
     padding: 0;
+}
+
+.chart-option-bar{
+    width: 70px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity{
+    width: 27px;
+    height: 27px;
+    border-radius: 10px;
+    background-color: #DBC1AC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-total{
+    position: absolute;
+    bottom: 0;
+    width: 282px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 39px 30px 39px;
+    padding: 0;
+    background-color: #DBC1AC;
+}
+
+.total-price-send{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.total{
+    width: 30%;
+    text-align: left;
+}
+
+.price-send{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.price{
+    text-align: right;
+}
+
+.send{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 0 0 15px;
+}
+
+.send img{
+    width: 30px;
+    height: auto;
 }
